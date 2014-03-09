@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1675429704">
+    <data-source source="LOCAL" name="NewPersistenceUnit" uuid="089f945c-225e-48a6-974d-352b3c0b3f25">
+      <jdbc-url>jdbc:derby:C:/DB</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://C:\Users\Zepp\.m2\repository\javax\javaee-api\6.0\javaee-api-6.0.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Derby - DB" uuid="26371fab-6fbb-4f41-bdc7-2cc1a2dea15f">
+      <driver-ref>derby.embedded</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
+      <jdbc-url>jdbc:derby:C:/DB</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
