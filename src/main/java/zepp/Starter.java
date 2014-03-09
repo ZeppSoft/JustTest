@@ -12,8 +12,8 @@ public class Starter {
         //EntityManagerFactory factory = Persistence.createEntityManagerFactory("NewPersistenceUnit");
         EntityManagerFactory factory = Persistence.createEntityManagerFactory("NewPersistenceUnitHibernate");
         EntityManager em = factory.createEntityManager();
-        Us us = new Us("user","user");
-        Us us2 = new Us("admin","admin");
+        Us us = new Us("user1","user");
+        Us us2 = new Us("admin2","admin");
         em.getTransaction().begin();
         em.persist(us);
         em.persist(us2);

@@ -3,7 +3,7 @@
   <data-source source="LOCAL" name="NewPersistenceUnit" uuid="089f945c-225e-48a6-974d-352b3c0b3f25">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
-  <data-source source="LOCAL" name="Derby - DB" uuid="26371fab-6fbb-4f41-bdc7-2cc1a2dea15f">
+  <data-source source="LOCAL" name="Derby - DB2;" uuid="26371fab-6fbb-4f41-bdc7-2cc1a2dea15f">
     <database-info product="Apache Derby" version="10.8.3.0 - (1405108)" jdbc-version="4.0" driver-name="Apache Derby Embedded JDBC Driver" driver-version="10.8.3.0 - (1405108)">
       <identifier-quote-string>&quot;</identifier-quote-string>
     </database-info>
@@ -19,6 +19,12 @@
     <schema name="SYSIBM" catalog=""/>
     <schema name="SYSPROC" catalog=""/>
     <schema name="SYSSTAT" catalog=""/>
+    <table name="US" schema="APP" catalog="" type="TABLE">
+      <column name="ID" sqlType="INTEGER" length="10" precision="0" nullable="false" jdbcType="4" def="R0VORVJBVEVEX0JZX0RFRkFVTFQ=" autoIncrement="true"/>
+      <column name="LOGIN" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="PASSWORD" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="SQL140309225318320" columns="ID"/>
+    </table>
     <table name="SYSALIASES" schema="SYS" catalog="" type="SYSTEM TABLE">
       <column name="ALIASID" sqlType="CHAR" length="36" precision="0" nullable="false" jdbcType="1"/>
       <column name="ALIAS" sqlType="VARCHAR" length="128" precision="0" nullable="false" jdbcType="12"/>

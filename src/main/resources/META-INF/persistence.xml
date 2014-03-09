@@ -5,11 +5,11 @@
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
         <class>zepp.Us</class>
         <properties>
-            <property name="eclipselink.jdbc.url" value="jdbc:derby:C:/DB"/>
+            <property name="eclipselink.jdbc.url" value="jdbc:derby:C:/DB2"/>
             <property name="eclipselink.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
             <property name="eclipselink.jdbc.user" value=""/>
             <property name="eclipselink.jdbc.password" value=""/>
-            <property name="eclipselink.ddl-generation" value="drop-and-create-tables" />
+            <!--<property name="eclipselink.ddl-generation" value="drop-and-create-tables" />-->
             <property name="eclipselink.ddl-generation.output-mode" value="database" />
         </properties>
 
@@ -22,7 +22,7 @@
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.DerbyTenSevenDialect"/>
             <property name="hibernate.hbm2ddl.auto" value="update"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:derby:C:/DB"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:derby:C:/DB2"/>
             <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
 
         </properties>
